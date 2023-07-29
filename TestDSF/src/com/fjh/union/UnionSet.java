@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * @author 21561
+ */
 public class UnionSet<V> {
     private HashMap<V,Node> nodeMap;
     private HashMap<Node,Node>fatherMap;
